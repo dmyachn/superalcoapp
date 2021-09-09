@@ -107,8 +107,8 @@
 		0AB88CB1269780E70059EC5F /* SuperAlcoholic */ = {
 			isa = PBXGroup;
 			children = (
+				6B0EC19426EA050D0033CA36 /* Model */,
 				0AB88CE92697837B0059EC5F /* Repositories */,
-				0AB88CE7269782E70059EC5F /* Model */,
 				0AB88CE6269782C30059EC5F /* Storyboard */,
 				0AB88CB2269780E70059EC5F /* AppDelegate.swift */,
 				0AB88CB4269780E70059EC5F /* SceneDelegate.swift */,
@@ -156,19 +156,19 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
-		0AB88CE7269782E70059EC5F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		0AB88CE92697837B0059EC5F /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
 				0AB88CEB2697843D0059EC5F /* DrinksRepo.swift */,
 			);
 			path = Repositories;
+			sourceTree = "<group>";
+		};
+		6B0EC19426EA050D0033CA36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
