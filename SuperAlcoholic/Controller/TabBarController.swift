@@ -12,10 +12,6 @@ class TabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let searchController = SearchController()
-        let settingsController = SettingsController()
-        
-        self.setViewControllers([searchController, settingsController], animated: true)
     }
 
 

@@ -10,20 +10,8 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        self.window = UIWindow(frame: UIScreen.main.bounds)
-        
-        let searchController = SearchController()
-        let settingsController = SettingsController()
-        
-        let tabBar = UITabBarController()
-        tabBar.setViewControllers([searchController, settingsController], animated: true)
-        
-        self.window?.rootViewController = tabBar
-        self.window?.makeKeyAndVisible()
         
         return true
     }
